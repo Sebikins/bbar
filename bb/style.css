@@ -139,7 +139,9 @@ header {
 }
 /*о нас*/
 
-
+.about-us {
+    margin-top: 140px;
+}
 
 .about-us__item {
     
@@ -181,6 +183,7 @@ header {
 /*----Наша команда----*/
 
 .our-team {
+    margin-top: 140px;
     height: 505px;
     align-items: flex-start;
 }
@@ -222,15 +225,19 @@ header {
 }
 /*slider-text*/
 
-
+.certificates {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
 
 .certificates-text {
-    grid-template-rows:1fr 1fr;
+    grid-template-rows:2fr 1.5fr 1fr;
 }
 
 /*slider*/
 
 .slider {
+    margin-bottom: 140px;
     background-color: #F5F5F5;
 }
 
